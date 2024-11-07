@@ -16,6 +16,15 @@ header img{
     justify-self: center;
 }
 
+header img {
+    transition: width 2s ease, height 2s ease;
+  }
+  
+  head img:active {
+    width: 500px;
+    height: 500px;
+  }
+
 header a{
     display: flex;
   justify-self: right; 
@@ -218,8 +227,8 @@ footer img{
 .historie div:nth-child(5) {
 background-color: #6495ed;
 display: flex;
-padding: 1em 2em 0em 2em;
-margin: 2em 0em 0em 10em;
+padding: 1em 3em 0em 2em;
+margin: 2em 0em 0em 12em;
 justify-self: center;
 }
 
